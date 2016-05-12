@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Dirigentes</string>
+    <string name="config_name">Punto de Control</string>
+    <string name="config_extra">codigo</string>
+    <string name="url_extra">URL</string>
+
+    <string name="btn_save">Guardar</string>
+    <string name="choces_checkpoint">Elige tu punto de control</string>
+    <string name="title_activity_patrullas">PatrullasActivity</string>
+    <string name="tab_all">Todas</string>
+    <string name="tab_point">Punto de Control</string>
+    <string name="update_data">Actualizando...</string>
+    <string name="loading_data">Cargando datos...</string>
+    <string name="btn_back">Volver</string>
+    <string name="choice_test">Elige la prueba</string>
+    <string name="loading_download">Descargando</string>
+
+    <array name="checkpoint">
+        <item>Por favor elija uno</item>
+        <item>Punto de Control 1</item>
+        <item>Punto de Control 2</item>
+    </array>
+</resources>
