@@ -36,6 +36,7 @@ public class ImageActivity extends AppCompatActivity {
             download.execute();
         } else {
             image.setImageBitmap(bmp);
+            image.setZoom(1f);
         }
 
         FloatingActionButton btnBack = (FloatingActionButton) findViewById(R.id.btnBack);
@@ -85,6 +86,7 @@ public class ImageActivity extends AppCompatActivity {
         protected void onPostExecute(Bitmap bmp) {
             super.onPostExecute(bmp);
             imageView.setImageBitmap(bmp);
+            imageView.setZoom(1f);
             if (pDialog != null)
                 pDialog.dismiss();
         }

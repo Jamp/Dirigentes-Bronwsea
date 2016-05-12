@@ -7,7 +7,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="us.icter.activities.ConfigActivity">
+    tools:context="us.icter.activities.ConfigActivity"
+    android:background="@android:color/white">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -41,17 +42,19 @@
             android:spinnerMode="dropdown" />
 
         <Button
-            android:layout_width="100dp"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/btn_save"
             android:id="@+id/btn_save"
             android:background="@color/colorAccent"
             android:textColor="@android:color/white"
             android:layout_gravity="right"
-            android:drawableRight="@android:drawable/ic_menu_save"
+            android:drawableRight="@drawable/ic_save_white_24dp"
             android:layout_below="@+id/txt_patrol"
             android:layout_alignRight="@+id/txt_patrol"
-            android:layout_alignEnd="@+id/txt_patrol" />
+            android:layout_alignEnd="@+id/txt_patrol"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp" />
     </LinearLayout>
 
 </ScrollView>
