@@ -61,9 +61,9 @@ public class PuntoAdapter extends ArrayAdapter<Estaciones> {
         holder.btnSee.setTag(currentPrueba);
         holder.btnCheck.setTag(currentPrueba);
 
-        //if (currentPrueba.isStatus()) {
-        //    holder.btnCheck.setVisibility(View.INVISIBLE);
-        //}
+        if (currentPrueba.isStatus()) {
+            holder.btnCheck.setVisibility(View.INVISIBLE);
+        }
 
         return convertView;
     }
