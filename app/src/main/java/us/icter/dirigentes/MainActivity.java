@@ -153,7 +153,10 @@ public class MainActivity extends AppCompatActivity implements OnClickListener {
 
                             listaPunto.add(e);
                         }
+
+                        listaPunto.add(new Estaciones());
                         adapterPruebas.notifyDataSetChanged();
+
                         if (pDialog != null)
                             pDialog.dismiss();
                     }
